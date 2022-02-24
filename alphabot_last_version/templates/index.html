@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alphabot's moves</title>
+
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+
+    <body>
+        <h1>Moves for the Alphabot</h1>
+        <p>Press a button to make the Alpabot move</p>
+
+        <form method="post">
+            <table>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Forward" name="forward" class="btn"></td>
+                </tr>
+    
+                <tr>
+                    <td><input type="submit" value="Left" name="left" class="btn"></td>
+                    <td><input type="submit" value="Stop" name="stop" class="btn"></td>
+                    <td><input type="submit" value="Right" name="right" class="btn"></td>
+                </tr>
+    
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Backward" name="backward" class="btn"></td>
+                </tr>
+                
+            </table>
+            <hr>
+            <p>Commands database:</p>
+
+            <input type="text" name="txt_db" id="txt_db">
+            <input type="submit" name="submit_db" value="Submit">
+        </form>
+        
+    </body>
+</html>
